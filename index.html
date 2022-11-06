@@ -3,7 +3,7 @@
   <head>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-      </style>
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quote Generator</title>
@@ -19,19 +19,26 @@
       <!-- Quote -->
       <div class="quote-text">
         <i class="fas fa-quote-left"></i>
-          <span id="quote">Before you diagnose yourself with depression or low self-esteem, first make sure you are not, in fact, surrounded by assholes</span>
+        <span id="quote"
+          >Before you diagnose yourself with depression or low self-esteem,
+          first make sure you are not, in fact, surrounded by assholes</span
+        >
       </div>
       <!-- Author -->
       <div class="quote-author">
         <span id="author">Sigmund Freud</span>
       </div>
       <!-- Buttons -->
-    <div class="button-container">
-      <button class="twitter-button" id="twitter" title="Tweet This">
-        <i class="fab fa-twitter"></i>
-      </button>
-      <button id="new-quote">New Quote</button>
+      <div class="button-container">
+        <button class="twitter-button" id="twitter" title="Tweet This">
+          <i class="fab fa-twitter"></i>
+        </button>
+        <button id="new-quote">New Quote</button>
+      </div>
     </div>
+
+    <!-- Loader -->
+    <div class="loader"></div>
     <!-- Script -->
     <script src="quotes.js"></script>
     <script src="script.js"></script>
